@@ -14,7 +14,7 @@ Holiday weeks in the dataset correspond to Super Bowl (February), Labor Day (Sep
 
 **Implication:** Seasonal preparation should begin in October, with labor and inventory concentrated in the pre‑Christmas build. The Christmas week itself does not require elevated staffing.
 
-![image.png](attachment:image.png)
+![Holiday Sales by Month](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/holiday_nonholiday_bymonth.png)
 
 ---
 
@@ -23,7 +23,7 @@ Department 72 (Electronics) shows the largest holiday lift by a wide margin, fol
 
 **Implication:** Electronics should receive priority in seasonal planning, including feature space, inventory depth, and promotional visibility. Secondary gifting categories should receive proportionate support.
 
-![image-2.png](attachment:image-2.png)
+![Departments Driving Holiday Lifts](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/holiday_nonholiday_bydept.png)
 
 ---
 
@@ -32,7 +32,7 @@ Store 10 significantly outperforms all other locations during holiday periods, b
 
 **Implication:** Store 10’s holiday playbook—whether assortment, execution, or local marketing—should be reviewed and selectively replicated in comparable stores.
 
-![image-3.png](attachment:image-3.png)
+![Stores Driving Holiday Lifts](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/holiday_lifts_by_store.png)
 
 ---
 
@@ -45,7 +45,7 @@ Store 10 significantly outperforms all other locations during holiday periods, b
 
 **Implication:** Shift to weather‑responsive merchandising that prioritizes the items customers reach for first under each condition (hydration in heat, warming foods in cold). Reinforce digital channels to reduce friction for customers who prefer not to travel.
 
-![image-4.png](attachment:image-4.png)
+![Weather Impact on Sales](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/temp_impact_weekly_sales.png)
 
 
 
@@ -56,8 +56,8 @@ High unemployment materially dampens sales. CPI shows a moderate negative effect
 
 **Implication:** During macro‑pressure periods, tighten assortments, emphasize value tiers, and use targeted promotions rather than broad discounting. Marketing should focus on essentials and retention to protect traffic without eroding margin.
 
-![image-5.png](attachment:image-5.png)
-![image-6.png](attachment:image-6.png)
+![Unemployment Impact on Sales](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/avg_sales_by_unemployment.png)
+![CPI Impact on Sales](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/avg_sales_by_cpi.png)
 
 ---
 
@@ -66,5 +66,42 @@ Both store types show holiday lift, but statistical testing indicates no meaning
 
 **Implication:** Holiday strategy does not need to be differentiated by store type; focus should remain on individual store performance patterns rather than format‑level adjustments.
 
+![Holiday Lifts by Store Type](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/holiday_lifts_by_store_type.png)
+---
+Recap of Findings:
 
-![image-7.png](attachment:image-7.png)
+**Holiday timing**  
+- November is the real peak because shoppers start early and Black Friday pulls demand forward.  
+- The week right before Christmas dips since most people finish buying earlier.  
+- Sales drop back to normal immediately after, so stores need to reset fast.
+
+**Category mix**  
+- Electronics leads holiday lift by a wide margin, followed by Media/Gaming and Toys.  
+- These are classic gifting categories, so they deserve the most space and attention during the season.
+
+**Store‑level patterns**  
+- One store consistently outperforms during holiday weeks, both in absolute lift and relative to its baseline.  
+- That kind of outlier usually points to strong local execution or a favorable trade area worth studying.
+
+**Weather effects**  
+- Comfortable temperatures help traffic and conversion.  
+- Extreme heat or cold pushes shoppers toward essentials and reduces casual trips.  
+- Operators can adjust labor and endcaps around these shifts.
+
+**Macroeconomic signals**  
+- Higher unemployment pulls discretionary spending down.  
+- Rising prices push customers toward value tiers or delayed purchases.  
+- Retailers can respond by tightening assortments and focusing promotions where they matter.
+
+**Store format**  
+- Both formats lift during holidays, and the difference between them is not meaningful.  
+- The real variation happens at the store level, not the format level.
+
+---
+
+[Click here for the dbt codes](dbt)
+
+[Click here for the python code](python)
+
+[Click here for the Postgres and parquet data sets](https://app.datacamp.com/learn/projects/1833)
+
