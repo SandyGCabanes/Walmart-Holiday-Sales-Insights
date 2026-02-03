@@ -102,7 +102,7 @@ Recap of Findings:
 ---
 
 ## Description of Work Done:
-- Created a data pipeline using dbt-duckdb for sql transformations.  Joined csv extract fro Postgres with extra data in parquet.
+- Created a data pipeline using dbt-duckdb for sql transformations.  Joined csv extract from Postgres to parquet data.
 - [Click here for the dbt codes](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/tree/main/dbt)
 - Cleaned csv used for python analysis in jupyter notebook.
 - [Click here for the python code for the insights and the exploratory data analysis](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/tree/main/python)
