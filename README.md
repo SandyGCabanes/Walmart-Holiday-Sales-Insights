@@ -1,3 +1,4 @@
+![Walmart](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/Walmart-Logo-New.png)
 # Walmart-Holiday-Sales-Insights
 ### dbt, python
 ## Overview  
