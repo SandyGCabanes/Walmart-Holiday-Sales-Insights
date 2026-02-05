@@ -1,8 +1,8 @@
 ![Walmart](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/Walmart-Logo-New.png)
-# Walmart Holiday Sales Insights 
+# Walmart Holiday Sales Insights - Analyst's Report
 ### dbt, python
 ## Overview  
-This analysis evaluates how holiday timing, department mix, store characteristics, weather, and macroeconomic conditions influence weekly sales. The objective is to surface patterns that can guide seasonal planning, merchandising decisions, and operational readiness.
+This analysis evaluates how holiday timing, department mix, store characteristics, weather, and macroeconomic conditions influence weekly sales. The objective is to surface patterns that can guide seasonal planning, merchandising decisions, and operational readiness. 
 
 ---
 
@@ -12,7 +12,7 @@ Holiday weeks in the dataset correspond to Super Bowl (February), Labor Day (Sep
 **Observed patterns:**  
 - November shows the strongest lift, driven by pre‑Christmas shopping and Black Friday activity.  
 - The week immediately preceding Christmas softens, indicating that most holiday purchasing is completed earlier.  
-- Sales normalize quickly after the season, reinforcing the need for rapid post‑holiday recalibration.
+- Sales normalize quickly after the season, supporting the need for rapid post‑holiday retail activities.
 
 **Implication:** Seasonal preparation should begin in October, with labor and inventory concentrated in the pre‑Christmas build. The Christmas week itself does not require elevated staffing.
 
