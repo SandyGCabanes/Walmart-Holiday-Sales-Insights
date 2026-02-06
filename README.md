@@ -16,7 +16,7 @@ Holiday weeks in the dataset correspond to Super Bowl (February), Labor Day (Sep
 
 **Implication:** Seasonal preparation should begin in October, with labor and inventory concentrated in the pre‑Christmas build. The Christmas week itself does not require elevated staffing.
 
-![Holiday Sales by Month](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/holiday_nonholiday_bymonth.png)
+![Holiday Sales by Month](https://github.com/SandyGCabanes/RetailCo-Holiday-Sales-Insights/blob/main/assets/h_nh_month.png)
 
 ---
 
@@ -25,7 +25,7 @@ Department 72 (Electronics) shows the largest holiday lift by a wide margin, fol
 
 **Implication:** Electronics should receive priority in seasonal planning, including feature space, inventory depth, and promotional visibility. Secondary gifting categories should receive proportionate support based on lift. These top categories should be replenished earlier to avoid stockouts.
 
-![Departments Driving Holiday Lifts](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/holiday_nonholiday_bydept.png)
+![Departments Driving Holiday Lifts](https://github.com/SandyGCabanes/RetailCo-Holiday-Sales-Insights/blob/main/assets/lift_by_dept.png)
 
 ---
 
@@ -34,7 +34,7 @@ Store 10 significantly outperforms all other locations during holiday periods, b
 
 **Implication:** Store 10’s holiday playbook—whether assortment, execution, or local marketing—should be reviewed and selectively replicated in comparable stores.
 
-![Stores Driving Holiday Lifts](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/holiday_lifts_by_store.png)
+![Stores Driving Holiday Lifts](https://github.com/SandyGCabanes/RetailCo-Holiday-Sales-Insights/blob/main/assets/lift_store_id.png)
 
 ---
 
@@ -47,7 +47,7 @@ Store 10 significantly outperforms all other locations during holiday periods, b
 
 **Implication:** Shift to weather‑responsive merchandising that prioritizes the items customers reach for first under each condition (hydration in heat, warming foods in cold). Reinforce digital channels to reduce friction for customers who prefer not to travel.
 
-![Weather Impact on Sales](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/temp_impact_weekly_sales.png)
+![Weather Impact on Sales](https://github.com/SandyGCabanes/RetailCo-Holiday-Sales-Insights/blob/main/assets/tempbins_sales.png)
 
 
 
@@ -58,8 +58,9 @@ High unemployment materially dampens sales. CPI shows a moderate negative effect
 
 **Implication:** During macro‑pressure periods, tighten assortments, emphasize value tiers, and use targeted promotions rather than broad discounting. Marketing should focus on essentials and retention to protect traffic without eroding margin.
 
-![Unemployment Impact on Sales](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/avg_sales_by_unemployment.png)
-![CPI Impact on Sales](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/avg_sales_by_cpi.png)
+![Unemployment Impact on Sales](https://github.com/SandyGCabanes/RetailCo-Holiday-Sales-Insights/blob/main/assets/unemp_sales.png)
+
+![CPI Impact on Sales](https://github.com/SandyGCabanes/RetailCo-Holiday-Sales-Insights/blob/main/assets/cpi_sales.png)
 
 ---
 
@@ -68,7 +69,8 @@ Both store types show holiday lift, but statistical testing indicates no meaning
 
 **Implication:** Holiday strategy does not need to be differentiated by store type; focus should remain on individual store performance patterns rather than format‑level adjustments.
 
-![Holiday Lifts by Store Type](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/blob/main/assets/holiday_lifts_by_store_type.png)
+![Holiday Lifts by Store Type](https://github.com/SandyGCabanes/RetailCo-Holiday-Sales-Insights/blob/main/assets/lift_store_type.png)
+
 ---
 Recap of Findings:
 
