@@ -100,14 +100,14 @@ Recap of Findings:
 - The real variation happens at the store level, not the format level.
 
 ---
-
+# Appendix: Technical Details for Technical Stakeholders
 ## Description of Work Done:
 - Created a data pipeline using dbt-duckdb for sql transformations.  Joined csv extract from Postgres to parquet data.
 - [Click here for the dbt codes](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/tree/main/dbt)
 - Cleaned csv used for python analysis in jupyter notebook.
 - [Click here for the python code for the insights and the exploratory data analysis](https://github.com/SandyGCabanes/Walmart-Holiday-Sales-Insights/tree/main/python)
   
----
+
 ## Resources:
 - [Click here for the Postgres and parquet data sets](https://app.datacamp.com/learn/projects/1833)
 - The final dataset has 231483 rows, 17 columns
